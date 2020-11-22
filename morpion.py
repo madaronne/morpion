@@ -37,7 +37,7 @@ while game_over == False:
             while xvalid == False:
                 x = int(input("x?")) - 1
                 if x not in [0,1,2]:
-                    print(f"gros fdp tu crois vraiment ya {x} cases t'es trop con")
+                    print(f"mais où est ce que tu vois une case n°{x+1} ಠ_ಠ")
                 else:
                     xvalid = True
 
@@ -45,7 +45,7 @@ while game_over == False:
             while yvalid == False:
                 y = int(input("y?")) - 1
                 if y not in [0,1,2]:
-                    print(f"gros fdp tu crois vraiment ya {y} cases t'es trop con")
+                    print(f"mais où est ce que tu vois une case n°{y+1} ಠ_ಠ")
                 else:
                     yvalid = True
             
